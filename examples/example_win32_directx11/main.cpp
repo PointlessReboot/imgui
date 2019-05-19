@@ -71,6 +71,8 @@ int main(int, char**)
     //io.Fonts->AddFontFromFileTTF("../../misc/fonts/ProggyTiny.ttf", 10.0f);
     //ImFont* font = io.Fonts->AddFontFromFileTTF("c:\\Windows\\Fonts\\ArialUni.ttf", 18.0f, NULL, io.Fonts->GetGlyphRangesJapanese());
     //IM_ASSERT(font != NULL);
+    ImFont* font = io.Fonts->AddFontFromFileTTF("../../misc/fonts/Roboto-Medium.ttf", 32.0f);
+    font->Scale = 16.0f / 32.0f;
 
     // Our state
     bool show_demo_window = true;
